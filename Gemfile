@@ -33,8 +33,11 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'sprockets'
-
 gem 'devise', '~> 4.1', '>= 4.1.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'acts_as_votable', '~> 0.10.0'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'record_tag_helper', '~> 1.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -48,3 +51,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
